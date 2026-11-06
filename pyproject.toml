@@ -1,0 +1,23 @@
+[project]
+name = "goit-cs-hw-05"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Viktor Paranych", email = "viktorparanych2216@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "argparse>=1.4.0",
+    "asyncio>=4.0.0",
+    "matplotlib>=3.11.2",
+    "pathlib>=1.0.1",
+    "requests>=2.34.2",
+]
+
+[project.scripts]
+goit-cs-hw-05 = "goit_cs_hw_05:main"
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"
